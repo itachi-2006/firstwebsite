@@ -1,0 +1,24 @@
+body{
+    background-color: darkcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+}
+.container{
+    background-color: aqua;
+    height: 600px;
+    width: 640px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px;
+
+}
+.wish{
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-overflow: clip;
+    padding-left: 15px;
+}

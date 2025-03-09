@@ -1,0 +1,24 @@
+body{
+    background-color: darkcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+}
+.box{
+    border: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    height: 400px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px;
+}
+.wish{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>happy birthday chote</title>
+        <link rel="stylesheet" href="birth.css">
+    </head>
+    <body>
+        <div class="contain">
+           <p><center>hello do you want to proceed</center></p><br>
+           <center><a href="mail.html"><button>YES</button></a>
+           <button onclick="giveAlert()">NO</button>
+
+            <script>
+                let noClickCount = 0; 
+                function giveAlert() {
+    
+                    noClickCount++; 
+                    if (noClickCount === 1) {
+                        alert("jada tej banra yes click kar");
+                    } else if (noClickCount === 2) {
+                        alert("bsdk smajh ni ata yes click kar");
+                    } else {
+                        alert("abe bilkul madrchod hi ha kya YES click kar samjh ni ata");
+                    }
+                }
+            </script>
+            
+        </div>
+    </body>
+</html>
